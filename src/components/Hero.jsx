@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center min-h-[70vh] text-center">
-      <h1 className="text-6xl font-bold text-pink-400 mb-2">
+      <h1 className="text-5xl md:text-7xl font-bold text-pink-400 mb-2">
         SISTECH CAFE
       </h1>
 

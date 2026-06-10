@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-pink-400 text-white py-8">
+    <footer className="bg-pink-400 text-white py-12">
       <div className="flex justify-center gap-6 text-2xl mb-2">
         <img
             src="/instagram.png"

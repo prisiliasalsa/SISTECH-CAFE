@@ -2,18 +2,18 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-8 py-4 border-b border-gray-300">
+    <nav className="flex flex-col md:flex-row justify-between items-center p-6 shadow-sm">
       {/* Logo */}
       
       <Link
         href="/"
-        className="text-pink-400 font-bold text-xl hover:text-pink-500"
+        className="text-pink-400 font-bold text-2xl hover:text-pink-500"
         >
         SISTECH CAFE
         </Link>
 
       {/* Menu */}
-      <div className="flex items-center gap-6">
+      <div className="flex flex-wrap justify-center gap-6 mt-4 md:mt-0">
         <a href="/menu" className="hover:text-pink-400">
           Menu
         </a>
